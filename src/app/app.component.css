@@ -1,0 +1,48 @@
+html,body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    display: table;
+    background-color: yellow;
+    box-sizing: border-box;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    margin-right: 1px;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    background-color: greenyellow;
+}
+
+.snake-body{
+    background-color: blue;
+}
+
+
+.snake-head{
+    background-color: red;
+}
+
+.food{
+    background-color: green;
+}
+
+
+
+
